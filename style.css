@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+background: url(rosie-sun-1L71sPT5XKc-unsplash.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+width: 86%;
+display: flex;
+margin: auto;
+padding: 15px 0 ;
+align-items: center;
+justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+ul{
+    margin: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   color: aliceblue;
+   margin-top: -3%;
+   transition: .4s ease;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+.info{
+   margin-left: 7%;
+   margin-top: 6%;
+}
+.info h1{
+   font-size: 65px;
+   color: antiquewhite;
+}
+.info h3{
+   font-size: 18px;
+   color: rgb(238, 234, 234);
+   letter-spacing: 1px;
+   line-height: 24px;
+}
+.info span{
+    color: rgb(238, 234, 234);
+}
+.info a{
+    text-decoration: none;
+    color: rgb(98, 43, 226);
+    background-color: rgb(255, 255, 255);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 4 ease;
+}
+.info a:hover{
+background-color: aqua;
+}
+.icons a{
+   text-decoration: none; 
+   color: antiquewhite;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: aqua;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: antiquewhite;
+}
+
